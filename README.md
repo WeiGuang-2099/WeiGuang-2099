@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+WeiGuang;Full-Stack+Dev+%2B+AI+Tinkerer;I+build+things+that+%28hopefully%29+work)](https://git.io/typing-svg)
 
-![Status](https://img.shields.io/badge/-Open%20to%20Work-00d26a?style=for-the-badge)
+![Status](https://img.shields.io/badge/-Always%20Building-%2300d26a?style=for-the-badge)
 ![Stack](https://img.shields.io/badge/Stack-Full--Stack%20%2B%20AI-%236366F1?style=for-the-badge)
 ![Vibe](https://img.shields.io/badge/Vibe-Ship%20it%20%26%20iterate-%23F97316?style=for-the-badge)
 
@@ -14,7 +14,7 @@
 
 ```typescript
 const WeiGuang = {
-  status:     "Actively job hunting -- DMs open, coffee appreciated",
+  status:     "Building stuff & breaking things -- rinse and repeat",
   stack:      ["TypeScript", "Python", "Node.js", "React", "Vue", "FastAPI"],
   focusedOn:  ["RAG pipelines", "multi-agent systems", "graph-based code analysis"],
   philosophy: "Make it work -> make it right -> make it fast",
@@ -158,7 +158,7 @@ Scan product barcodes to estimate cradle-to-shelf carbon emissions using Austral
 [![Email](https://img.shields.io/badge/Email-Write%20to%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_PROFILE)
 
-*Currently looking for full-stack / AI engineering roles -- feel free to reach out!*
+*Currently exploring multi-agent workflows, graph-based RAG, and whatever catches my curiosity next.*
 
 </div>
 
