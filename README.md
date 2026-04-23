@@ -53,14 +53,15 @@ Upload source code, auto-build dependency graphs, and query your codebase archit
 
 ### [ecoCart](https://github.com/WeiGuang-2099/ecoCart) -- Privacy-First Carbon Footprint Scanner
 
-Scan product barcodes to estimate cradle-to-shelf carbon emissions using Australian LCA emission factors and discover local eco-friendly alternatives. All barcode decoding happens in-browser with ZXing WASM -- no images ever leave the device.
+Scan product barcodes to estimate cradle-to-shelf carbon emissions using Australian LCA emission factors, check for greenwashing under ACCC regulations, and discover nearby eco-friendly alternatives on an interactive map. All barcode decoding happens in-browser (ZXing WASM + YOLOv8n ONNX detection) -- no images ever leave the device. PWA installable, with English/Chinese i18n support.
 
 **Highlights:**
-- YOLO-NAS barcode detection + ZXing WASM in-browser decoding (privacy-first)
-- Australian-localized carbon model (ANZ LCA v3.1 + NGA transport factors)
+- YOLOv8n ONNX barcode detection + ZXing WASM in-browser decoding (privacy-first)
+- Australian-localized carbon model (ANZ LCA v3.1 + NGA transport factors + AFSIS categories)
 - ACCC anti-greenwash detection (auto-flags misleading eco claims)
+- Interactive eco-store map with nearby refill/organic/zero-waste alternatives
 
-`Node.js` `Express` `HTML5` `JavaScript` `ZXing WASM` `Privacy-First`
+`React 19` `Vite` `Node.js` `Express` `ONNX Runtime` `Leaflet` `PWA` `i18n`
 
 ---
 
