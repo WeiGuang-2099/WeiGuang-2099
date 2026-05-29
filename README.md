@@ -15,8 +15,8 @@
 ```typescript
 const WeiGuang = {
   status:     "Building stuff & breaking things -- rinse and repeat",
-  stack:      ["TypeScript", "Python", "Node.js", "React", "Vue", "FastAPI"],
-  focusedOn:  ["RAG pipelines", "multi-agent systems", "graph-based code analysis"],
+  stack:      ["TypeScript", "Python", "Java", "Node.js", "React", "Vue", "FastAPI"],
+  focusedOn:  ["RAG pipelines", "multi-agent systems", "high-concurrency backends"],
   philosophy: "Make it work -> make it right -> make it fast",
 };
 ```
@@ -38,16 +38,30 @@ Full-stack platform for quickly deploying AI agent applications. Ships with 6+ p
 
 ---
 
-### [RAG-it](https://github.com/WeiGuang-2099/RAG-it) -- Graph RAG Code Analysis System
+### [Production-RAG](https://github.com/WeiGuang-2099/Production-RAG) -- Production-Grade RAG System
 
-Upload source code, auto-build dependency graphs, and query your codebase architecture with AI-powered graph topology analysis. Features multi-language parsing (Python, JS/TS, Vue), interactive force-directed visualization, cycle detection, path finding, and streaming AI chat with semantic code search.
+End-to-end Retrieval-Augmented Generation built for production: a hybrid retrieval pipeline that fuses dense vector search and BM25 via Reciprocal Rank Fusion, expands context with GraphRAG, then reranks before generation. Provider-agnostic by design -- swap LLM, embedding, and reranker backends straight from `.env` -- with full tracing on every retrieval step.
 
 **Highlights:**
-- Automated dependency graph construction with NetworkX
-- Graph topology queries: cycle detection, shortest path, impact analysis
-- Streaming AI chat powered by GLM-4
+- Hybrid retrieval: Qdrant vector search + BM25, fused with RRF
+- GraphRAG context expansion + reranking for higher-precision answers
+- Provider-agnostic factories (OpenAI / Anthropic / HuggingFace / Cohere)
+- LangSmith observability, Docker Compose deploy, pytest + eval harness
 
-`FastAPI` `React` `TypeScript` `NetworkX` `GLM-4` `WebSocket` `SQLite`
+`Python` `Qdrant` `BM25` `GraphRAG` `LangSmith` `Docker`
+
+---
+
+### [High-Concurrency Distributed Event-Driven System](https://github.com/WeiGuang-2099/High-concurrency-Distributed-Event-Driven-System) -- High-Throughput Backend
+
+A distributed, event-driven backend in Java designed to stay correct and fast under heavy concurrent load. Uses Redis Lua scripting for atomic operations on the hot path and ships fully containerized for reproducible deployment.
+
+**Highlights:**
+- Event-driven, distributed architecture for high-throughput workloads
+- Redis Lua scripts for atomic operations under contention
+- Containerized with Docker for reproducible, portable deployment
+
+`Java` `Spring Boot` `Redis` `Lua` `Docker`
 
 ---
 
@@ -68,6 +82,8 @@ Scan product barcodes to estimate cradle-to-shelf carbon emissions using Austral
 <details>
 <summary><b>More Projects</b></summary>
 <br>
+
+- **[RAG-it](https://github.com/WeiGuang-2099/RAG-it)** -- Graph RAG code analysis system. Upload source code, auto-build dependency graphs with NetworkX, and query your codebase architecture (cycle detection, shortest path, impact analysis) via streaming AI chat with semantic code search. `FastAPI` `React` `TypeScript` `NetworkX` `GLM-4` `WebSocket` `SQLite`
 
 - **[Smart Code Assistant](https://github.com/WeiGuang-2099/Smart_Code_Assistant)** -- RAG-powered enterprise knowledge base with hybrid vector + BM25 retrieval, multi-format document parsing (PDF, Word, Excel, PPT, Markdown, HTML), citation-traced answers, and JWT + RBAC access control. `FastAPI` `React` `Milvus` `LangChain` `Redis` `Docker` `Kubernetes`
 
@@ -152,14 +168,9 @@ Scan product barcodes to estimate cradle-to-shelf carbon emissions using Austral
 
 ---
 
-## Let's Connect
-
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-Write%20to%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_PROFILE)
-
-*Currently exploring multi-agent workflows, graph-based RAG, and whatever catches my curiosity next.*
+*Currently exploring multi-agent workflows, graph-based RAG, high-concurrency backends, and whatever catches my curiosity next.*
 
 </div>
 
