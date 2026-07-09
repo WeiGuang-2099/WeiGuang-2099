@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+WeiGuang+(Yuheng+Li);Full-Stack+Dev+%2B+AI+Tinkerer;I+build+things+and+then+measure+them)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+WeiGuang;Full-Stack+Dev+%2B+AI+Tinkerer;I+build+things+and+then+measure+them)](https://git.io/typing-svg)
 
 ![Status](https://img.shields.io/badge/-Always%20Building-%2300d26a?style=for-the-badge)
 ![Stack](https://img.shields.io/badge/Stack-Full--Stack%20%2B%20AI-%236366F1?style=for-the-badge)
@@ -188,6 +188,6 @@ Full-stack platform for quickly deploying AI agent applications. Ships with 6+ p
 
 *Currently exploring multi-agent workflows, graph-based RAG, high-concurrency backends, and whatever catches my curiosity next.*
 
-*Open to graduate / junior software & AI engineering roles in Australia -- say hi: liyuhengduigong@gmail.com*
+*Open to graduate / junior software & AI engineering roles in Australia*
 
 </div>
